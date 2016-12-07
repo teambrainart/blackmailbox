@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLACK MAIL BOX | ACCUEIL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/main.css" rel="stylesheet" media="screen">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link href="css/article.css" rel="stylesheet" media="screen">
+<link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+<link rel="manifest" href="img/fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="container">
+<header class="clearfix">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><br>
+<a href="index.html"><img id="logo-left" src="img/logo.png" alt="logo"></a>
+</div><br>
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ul id="login">
+<li><a href="#">Newsletter&nbsp;&nbsp;</a> |</li>
+<li><a href="contact-us.html">&nbsp;&nbsp;Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="row"><br>
+<ul id="menu">
+<li><a href="about.html">À propos</a></li>
+<li><a href="index.html">Articles</a></li>
+	<li><a href="#">No Bullshit</a></li>
+	<li><a id="hidden" href="contact-us.html"><img class="search" src="img/search.png">Rechercher</a></li>
+
+</ul>
+</div>
+</header>
+<br>
+<form style="padding:30px;" id="contact" method="post" action="../traitement_formulaire.php">
+<fieldset>
+<p class="wow fadeInLeft" data-wow-delay="300ms"><label for="nom">Nom :</label><input class="form-control" type="text" id="nom" name="nom" tabindex="1" placeholder="Entrer votre nom et prénom"/></p>
+<p class="wow fadeInRight" data-wow-delay="600ms"><label for="email">Email :</label><input class="form-control" type="text" id="email" name="email" tabindex="2" placeholder="Entrer votre email"/></p>
+</fieldset>
+<fieldset>
+<p class="wow fadeInLeft" data-wow-delay="900ms"><label for="objet">Objet :</label><input class="form-control" type="text" id="objet" name="objet" tabindex="3" placeholder="Entrer le sujet de votre email"/></p>
+<p class="wow fadeInRight" data-wow-delay="1200ms"><label for="message">Message :</label><textarea class="form-control" id="message" name="message" tabindex="4" cols="30" rows="8" placeholder="Entrer votre message"></textarea></p>
+</fieldset>
+<button type="submit" name="envoi" value="Envoyer le formulaire !" style="background-color:black;" class="btn btn-primary wow bounceIn" data-wow-delay="1500ms">Envoyer</button>
+</form></div>
+<br><br>
+<br><br><br>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

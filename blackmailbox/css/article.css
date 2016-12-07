@@ -1,0 +1,68 @@
+
+
+#img-main {
+width: 50%;
+}
+
+#img-sub {
+width: 200px !important;
+
+}
+
+.signed{
+float: left;
+font-style: bold;
+font-weight: 600;
+text-transform: uppercase;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #CCB48D;
+}
+
+.dated{
+float: left;
+text-transform: uppercase;
+font-style: bold;
+font-weight: 600;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+figure .silicon{
+font-weight: 500;
+padding-top: 5px;
+padding-bottom: 15px;
+width: 100%;
+
+}
+
+span .silicon2{
+padding-top: 5px;
+padding-bottom: 15px;
+width: 100%;
+}
+
+#aside {
+background-color: rgba(0, 0, 255, 0.5);
+padding: 0 20px 20px;
+padding-top: 0px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+line-height: 1em;
+display: block;
+margin-left: 200px !important;
+overflow: hidden;
+}
+
+
+#aside a {
+color: black;
+}
+
+.aside-head{
+text-transform: uppercase;
+color: #CCB48D;
+font-size: 20px;
+}
