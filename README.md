@@ -1,2 +1,0 @@
-# blackmailbox
-First blog 
